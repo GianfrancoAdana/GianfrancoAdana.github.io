@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First HTML Webpage</title>
+</head>
+<body>
+	<!--START of BODY CONTENTS-->
+	<br><br>
+	<h3>
+		<table align="center">
+			<tr>
+				<td style="font-size:30px; width:500px"><font face="Bahnschrift">Gianfranco M. Adana</font></td>
+				<td style="width:500px"></td>
+				<td>
+					<nav>
+						<a href="#" style="font-family:Bahnschrift">Home</a>&nbsp&nbsp
+						<a href="#" style="font-family:Bahnschrift">Profile</a>&nbsp&nbsp
+						<a href="#" style="font-family:Bahnschrift">Work</a>&nbsp&nbsp
+						<a href="#" style="font-family:Bahnschrift">Videos</a>
+					</nav>
+				</td>
+			</tr>
+		</table>
+	</h3>
+	<br><hr><br>
+	<h1 align="center">
+		<font face="Bahnschrift" size="20" color="#000000">Welcome To <br>My First Web Page!</font>
+		<br>
+		<font face="Bahnschrift" size="5" color="#000000"><i>A Creator's Blog</i></font>
+	</h1>
+	<br><br><hr><br>
+	<!--h2 Favourite Foods-->
+	<section>
+		<h2>
+			<table align="center">
+				<tr>
+					<td><font face="Bahnschrift" size="6" style="font-weight:normal">My Favourite Foods:</font></td>
+				</tr>
+				<tr>
+					<td style="width: 1250px">
+						<br>
+						<ul>
+							<li style="font-weight:normal; font-family:Bahnschrift"><i>Adobo</i><br><img src="adobo.png" width="300px" height="250px"></li>
+							<li style="font-weight:normal; font-family:Bahnschrift"><i>Curry</i><br><img src="curry.png" width="300px" height="250px"></li>
+							<li style="font-weight:normal; font-family:Bahnschrift"><i>Bicol Express</i><br><img src="bicol.png" width="300px" height="250px"></li>
+						</ul>
+					</td>
+				<tr>
+			</table>
+		</h2>
+	</section>
+	<!--h2 Achievements-->
+	<section>
+		<h2>
+			<table align="center">
+				<tr style="height:100px">
+					<td><font face="Bahnschrift" size="6" style="font-weight:normal">Achievements:</font></td>
+				</tr>
+				<tr style="height:80px">
+					<td style="font-size:17px; font-family:Bahnschrift; font-weight:normal; width:500px">Career Progress:<br><i>(66.67%/100%)</td>
+					<td style="width:740px" align="left"><progress value="66.67" max="100"></progress>	</td>
+				</tr>
+				<tr style="height:80px">
+					<td style="font-size:17px; font-family:Bahnschrift; font-weight:normal; width:500px">Software Development Progress:<br><i>(8.33%/100%)</td>
+					<td style="width:740px" align="left"><progress value="8.33" max="100"></progress></td>
+				</tr>
+				<tr style="height:80px">
+					<td style="font-size:17px; font-family:Bahnschrift; font-weight:normal; width:500px">Income Progress:<br><i>(0%/100%)</i></td>
+					<td style="width:740px" align="left"><progress value="0" max="100"></progress></td>
+				</tr>
+			</table>
+		</h2>
+	</section>
+	<!--h2 About-->
+	<section>
+		<h2>
+			<table align="center"	>
+				<tr>
+					<td style="font-size:17px; width:1250px">
+						<details>
+							<summary style="font-family:Bahnschrift; font-weight:normal; font-size:30px">About Me</summary>
+							<p style="text-align:justify; font-family:Bahnschrift; font-size:18px; font-weight:normal">
+							<i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspA twenty-one (21) years old passionated 
+							computer engineering student with an ambition of becoming a professional engineer. I desire to become a successful 
+							professional through continuous learning, gaining experience, and encountering different challenges. Also, I am 
+							currently residing in Davao City and hoping someday, I could travel across the globe.</i></p>
+						</details>
+					</td>
+				</tr>
+			</table>
+		</h2>
+	</section>
+	<br><br><br><br>
+	<!--END of BODY CONTENTS-->
+<footer style="background-color:#000000">
+	<br><br>
+	<h1>
+		<table align="center">
+			<tr>
+				<td style="width:350px;"><font face="Bahnschrift" size="3" color="#FFFFFF"><i>© 2015 MANG INASAL PHILIPPINES INC.</i></font></td>
+				<td style="width:600px" align="right"><font face="Bahnschrift" size="2" color="#FFFFFF" style="font-weight:normal">
+				Laboratory Task 1 – Introduction to HTML</font></td>
+				<td style="width:250px" align="right"><font face="Bahnschrift" size="2" color="#FFFFFF" style="font-weight:normal">
+				CPE107L Software Design Laboratory</font></td>
+			</tr>
+		</table>
+	</h1>
+	<br>
+	<h1 align="center">
+		<font face="Bahnschrift" size="2" color="#FFFFFF" style="font-weight:normal"><i>All Rights Reserved S.Y. 2021-2022.</i></font>
+	</h1>
+	<br>
+</footer>
+</html>
