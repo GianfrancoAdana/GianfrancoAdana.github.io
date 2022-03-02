@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mang Inasal</title>
+</head>
+<body>
+	<br><br>
+	<!-- HEADER -->
+	<header style="background-color:#FFF500">
+		<hr style="border:5px solid #199245">
+		<table align="center">
+			<tr>
+				<td style="width:400px"><img src="manginasal.png" width="150px"></td>
+				<td style="width:600px" align="left">
+					<font style="font-family:Eras ITC,Eras bold ITC,sans-serif; font-size:40px"><b>&nbspMANG INASAL</b></font><br>
+					<font style="font-family:Eras ITC,Eras demi ITC,sans-serif; font-size:30px"><i>The More, The Many-er!</i></font>
+				</td>
+			</tr>
+		</table>
+		<hr style="border:5px solid #199245">
+	</header>
+	<!-- HEADER END -->
+	
+	<!-- NAV -->
+	<h2 align="center">
+		<nav>
+			<a href="#" style="font-family:arial; font-size:20px">HOME</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#" style="font-family:arial; font-size:20px">OFFERS</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#" style="font-family:arial; font-size:20px">STORES</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#" style="font-family:arial; font-size:20px">CONTACT US</a>
+		</nav>
+	</h2>
+	<!-- NAV END -->
+	
+	<!-- MAIN START -->
+	<main style="background-color:#199245; border-radius:10px" >
+		<h2 align="center">
+			<br><br>
+			<font style="font-size:40px; color:#FFFFFF; background-color:#F8222C; border:5px solid black; font-family:Eras ITC, Eras bold ITC,  sans-serif">&nbspMENU SPECIALTIES&nbsp </font>
+		</h2>
+		 <div  style="display:flex; justify-content:center; align-items:center">
+			<!-- FIGURE START -->
+			<table style="float:left; margin-right:1%; width:100px">
+				<tr>
+					<td align="center" style="height:300px">
+						<figure style="background-color:#116630; border-radius:10px">
+							<img src="pecho.png" alt="Pecho Large" style="size:40%">
+							<figcaption style="font-family:Eras ITC,Eras bold ITC,sans-serif; font-weight:bold; font-size:20px; color:#FFFFFF">Pecho Large</figcaption>
+							<br>
+						</figure>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">
+						<figure style="background-color:#116630; border-radius:10px">
+							<img src="halo.png" alt="Pinoy Halo-Halo" style="size:1%">
+							<figcaption style="font-family:Eras ITC,Eras bold ITC,sans-serif; font-weight:bold; font-size:20px; color:#FFFFFF">Pinoy Halo-Halo</figcaption>
+							<br>
+						</figure>
+					</td>
+				</tr>
+			</table>
+			<!-- FIGURE END-->
+			
+			<!-- SECTION START -->
+			<section>
+				<table style="width:600px">
+					<tr>
+						<td style="height:150px" valign="top">
+							<h2 style="background-color:#FFF500" align="center">
+							<hr style="border:2px solid black">
+								<font style="font-size:25px; color:#F8222C; font-family:Eras ITC,Eras light ITC,sans-serif">MANG INASAL OFFERS JUICY IHAW-SARAP FOR TAKEOUT OR DELIVERY</font>
+							<hr style="border:2px solid black">
+							</h2>
+
+							<br>
+							<!-- SUMMARY START -->
+							<details>
+								<summary style="font-family:Bahnschrift; font-weight:600; font-size:20px; color:#FFFFFF"><u>READ MORE ABOUT US!</u></summary>
+								<p style="text-align:justify; font-family:Eras ITC,Eras demi ITC,sans-serif; font-size:18px; font-weight:normal; color:#FFFFFF; background-color:#116630; border-radius:5px; padding: 1em 1em">
+								&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b style="color:#FFF500">Mang Inasal</b> provides the proper mix of traditional Filipino food and the dine-in concept. 
+								It quickly <font style="color:#FFF500">won the hearts of its customers</font> with its distinctively <font style="color:#FFF500">Pinoy stamp-grilling</font> and
+								<font style="color:#FFF500">special marinade</font> made out of local secret spices. Famous for its native-style and <font style="color:#FFF500">"Nuot-Sarap" Chicken Inasal</font> 
+								with its pioneering <font style="color:#FFF500">"unlimited rice,"</font> it has satisfied its customers' cravings with its distinctively Pinoy special marinade. 
+								The restaurant was an instant hit, with <font style="color:#FFF500">over thirty locations opened</font> in just three years. Mang Inasal first launched for franchising in 
+								<font style="color:#FFF500">2005</font>, confident in the business's durability and brand recall, focusing his efforts in <font style="color:#FFF500">Visayas></font> and 
+								<font style="color:#FFF500">Mindanao</font>, where <font style="color:#FFF500">Inasal</font> is <font style="color:#FFF500">most popular</font>. Luzon had franchise proposals soon after.</p>
+							</details>
+							<!-- SUMMARY END -->
+							<hr style="border:2px solid black">
+						</td>
+					</tr>
+					<tr>
+						<td style="height:170px">
+							<ul>
+								<li style="font-family:Eras ITC,Eras bold ITC,sans-serif; font-weight:bold; font-size:20px; color:#FFFFFF">Pecho Large<br>
+								<p style="font-weight:normal; font-size:17px; background-color:#116630; border-radius:5px; text-align:justify; padding: 1em 1em"><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspIt is a 
+								<b style="color:#FFF500">chicken skewered</b> and <b style="color:#FFF500">grilled</b> the <b style="color:#FFF500">Mang Inasal</b> way and served with a <font style="color:#FFF500">cup of rice</font>. 
+								All rice dishes include a cup of rice and the option of <b style="color:#FFF500">unlimited rice servings</b>. There's an option to order <font style="color:#FFF500">three rice bowls</font> for 
+								<font style="color:#FFF500">takeout or delivery</font>. <b style="background-color:#F8222C; color:#FFFFFF; border:2px solid black">A spicy version is available.</b></p></li>
+								<br>
+								<li style="font-family:Eras ITC,Eras bold ITC,sans-serif; font-weight:bold; font-size:20px; color:#FFFFFF">Pinoy Halo-Halo<br>
+								<p style="font-weight:normal; font-size:17px; background-color:#116630; border-radius:5px; text-align:justify; padding: 1em 1em"><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMang Inasal's 
+								<b style="color:#FFF500">Pinoy Halo-Halo</b> is a <b style="color:#FFF500">popular</b> <font style="color:#FFF500">Filipino dessert</font> made with a <b style="color:#FFF500">rich concoction 
+								of numerous ingredients</b> such as <font style="color:#FFF500">nata de coco, ube, leche flan, pinipig rice, and evaporated milk,</font> all topped with <font style="color:#FFF500">crushed ice
+								</font> and the option of <b style="color:#FFF500">ube or vanilla ice cream</b>. <b style="color:#FFF500">Mang Inasal</b> has elevated their <b style="color:#FFF500">game to new heights</b>, 
+								and they've been dubbed the <b style="background-color:#F8222C; color:#FFFFFF; border:2px solid black">Creamiest Pinoy Halo-Halo of all time.</b></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</section>
+			<!-- SECTION END -->
+		</div>
+	</main>
+	<!-- MAIN END -->
+</body>
+
+	<!-- FOOTER START -->
+<footer style="background-color:#116630">
+	<br>
+	<h1>
+		<table align="center">
+			<tr>
+				<td style="width:600px;"><font style="font-family:Bahnschrift; font-size:15px; color:#FFF500; font-weight:normal">© 2015 MANG INASAL PHILIPPINES INC.</font></td>
+				<td style="width:350px" align="left"><font t style="font-family:Bahnschrift; font-size:13px; color:#FFF500; font-weight:normal">
+				o	Laboratory Task 2 – Elements, Tags, and Attributes</font></td>
+			</tr>
+			<tr>
+				<td style="width:600px;"><font style="font-family:Bahnschrift; font-size:15px; color:#FFF500; font-weight:normal">EMAIL US: <i>feedback@manginasal.com<i></font></td>
+				<td style="width:350px" align="left"><font t style="font-family:Bahnschrift; font-size:13px; color:#FFF500; font-weight:normal">
+				o	CPE107L Software Design Laboratory</font></td>
+			</tr>
+		</table>
+	</h1>
+	<h1 align="center">
+		<font style="font-family:Bahnschrift; font-size:15px; color:#FFF500; font-weight:normal"><i>All Rights Reserved S.Y. 2021-2022.</i></font>
+	</h1>
+	<br>	
+</footer>
+	<!-- FOOTER END -->
+</html>
