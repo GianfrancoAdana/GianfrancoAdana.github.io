@@ -1,0 +1,126 @@
+*{
+    margin; 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#f2f2f2;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    background: url(bc.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    max-width: 460px;
+    width: 100%;
+    background: #ffffff;
+    padding: 50px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+
+}
+small{
+    visibility: hidden;
+    position: static;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-box{
+    width: 100%;
+    height: 45px;
+    margin-top: 24px;
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+
+}
+.terms{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+.submit{
+    margin-top: 15px;
+}
+.submit input{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: blueviolet; 
+}
+.submit input:hover{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #6a19b6; 
+}
+.reset{
+    margin-top: 20px;
+}
+.reset input{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: blueviolet; 
+}
+.reset input:hover{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #6a19b6; 
+}
+.input-box.success input{
+    border-color: black;
+}
+.input-box.success small{
+    visibility: hidden;
+    color: black;
+}
+.input-box.error input{
+    border-color: red;
+}
+.input-box.error small{
+    visibility: visible;
+    color: red;
+}
