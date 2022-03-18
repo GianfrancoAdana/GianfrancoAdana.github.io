@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="CSSWebsite.css">
+	<title>CSS Website</title>
+</head>
+<body>
+	<header>
+		<h1>A Complete CSS Webpage</h1>
+		<br><br><br>
+		<nav class="navbar">
+			<a class="navbar1" href="#">CPE107</a>
+			<a class="navbar1" href="#">CPE107L</a>
+			<a class="navbar2" href="#">CPE3</a>
+		</nav>
+	</header>
+	<div class="arrange">
+		<table class="tb1">
+			<tr>
+				<td class="td1-tb1">
+					<h3>Malayan Colleges Mindanao</h3>
+					<h4>Excelence and Relevance</h4>
+					<img src="mcm.jpg" width="800px" height="400px">
+					<p>MCM accepts senior high school students and College students, 
+					offering an array of courses fit for those looking to develop skills 
+					in Engineering and Architecture, Arts and Sciences, Computing and 
+					Information Science, and Business. We have a strong focus on 21st 
+					Century digital learning, wherein we provide each student with 
+					the best digital learning tools.</p>
+				</td>
+			</tr>
+			<tr class="space"></tr>
+			<tr>
+				<td class="td2-tb1">
+					<h3>College of Engineering and Architecture</h3>
+					<img src="cea.png" width="800px" height="500px">
+					<p>College of Engineering and Architecture (CEA) transforms its 
+					graduates to become globally competitive, innovative leaders, socially 
+					responsible and result-oriented engineers and architects. MCM-CEA 
+					commits to educate students imbued with good moral and ethical values 
+					while engaging economically viable research and innovation that is 
+					relevant locally and beyond.</p>
+				</td>
+			</tr>
+		</table>
+		<table class="tb2">
+			<tr>
+				<td class="td1-tb2">
+					<h3>About Me</h3>
+					<div class="pfp">
+						<img src="pfp.jpg" width="200px" height="200px">
+					</div>
+					<p>A twenty-one (21) years old passionated computer engineering 
+					student with an ambition of becoming a professional engineer. I 
+					desire to become a successful professional through continuous 
+					learning, gaining experience, and encountering different challenges. 
+					Also, I am currently residing in Davao City and hoping someday, 
+					I could travel across the globe.</p>
+				</td>
+			</tr>
+			<tr class="space"></tr>
+			<tr>
+				<td class="td2-tb2">
+					<h3>Favorite Foods</h3>
+					<div class="foods">
+					<img src="adobo.jpg" width="200px" height="200px" style="margin:5px" alt="Chicken Adobo">
+					<img src="curry.jpg" width="200px" height="200px" style="margin:5px" alt="Chicken Curry"> 
+					</div>
+					<div class="foods">
+					<img src="bicol.jpg" width="200px" height="200px" style="margin:5px" alt="Bicol Express">
+					<img src="bulalo.jpg" width="200px" height="200px" style="margin:5px" alt="Bulalo">
+					</div>
+				</td>
+			</tr>
+			<tr class="gap"></tr>
+		</table>
+	</div>
+</body>
+<footer>
+	<div class="fborder"></div>
+	<br>
+	<h4>Laboratory Task 4 - Advanced CSS Styling</h4>
+	<h4>CPE107L Software Design Laboratory</h4>
+</footer>
+</html>
