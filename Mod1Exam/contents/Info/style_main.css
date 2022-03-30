@@ -178,8 +178,7 @@ div.fcon{
 	transition: .5s;
 }
 div.tcon{
-    position: absolute;
-    bottom: 0%;
+    display: inline-block;
     background-color: #fff;
     width: 89%;
     height: auto;
