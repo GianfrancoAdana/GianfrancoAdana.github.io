@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<!-- Modified by Gianfranco M. Adana-->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Feedback | Malayan Colleges Mindanao, Student Information System</title>
+        <link rel="stylesheet" href="style_gen.css">
+        <link rel="icon" type="image/x-icon" href="images/logoicon.png">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <a href="../admin.html">
+                <img src="images/logoicon.png">
+                <div class="logo_name">MCM Digital</div>
+            </a>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <i class='bx bx-search' ></i>
+                <input type="text" placeholder="Search...">
+            <span class="tooltip">Search</span>
+            </li>
+            <li>
+                <a href="../Student/adminlist_stud.html">
+                    <i class='bx bx-notepad'></i>
+                    <span class="links_name">Student List</span>
+                </a>
+                <span class="tooltip">Student List</span>
+            </li>
+            <li>
+                <a href="../Courses/admin_course.html">
+                    <i class='bx bx-list-ul'></i>
+                    <span class="links_name">Course List</span>
+                </a>
+                <span class="tooltip">Course List</span>
+            </li>
+            <li>
+                <a href="#" class="hov">
+                    <i class='bx bx-user-voice' ></i>
+                    <span class="links_name">Announcement</span>
+                </a>
+                <span class="tooltip">Announcement</span>
+            </li>
+            <div class="bc">
+                <img src="images/admin3.svg">
+            </div>
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="images/avatar.png" alt="Avatar">
+                    <div class="name_job">
+                        <div class="name">Admin</div>
+                        <div class="job">Web Developer</div>
+                    </div>
+                </div>
+                <a href="../../../Main.html">
+                    <i class='bx bx-log-out' id="log_out"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="container">
+            <div class="contents">
+                <div class="top">
+                    <div class="top-img">
+                        <img src="images/male.svg">
+                        <img src="images/female.svg">
+                        <img class="add-more" src="images/peers.svg">
+                        <br><br>
+                        <h6 class="add-morei">Add more</h6>
+                        <div class="spacer">.</div>
+                        <i class='bx bx-bell' ></i>
+                        <a href="../admin.html">
+                            <i class='bx bx-arrow-from-right' ></i>
+                        </a>
+                        <i class='bx bx-arrow-from-left' ></i>
+                        <a href="../Info/info_admin.html">
+                            <i class='bx bx-info-circle' ></i>
+                        </a>
+                    </div>
+                    <br><br>
+                    <h2 class="fsub">Let Everyone Know Through Announcements!</h2>
+                    <div class="fcon">
+                        <h3 class="about">Announcement</h3>
+                        <br><br>
+                        <form class="form" id="form">
+                            <div class="input-box">
+                                <small>Full Name is optional</small>
+                                <input type="text" id="user" placeholder="Full Name">
+                            </div>
+                            <div class="textview">
+                                <small>General Announcement cannot be Blank!</small>
+                                <textarea placeholder="Enter Message"></textarea>
+                            </div>
+                            <div class="submit">
+                                <input type="submit" value="Submit" onclick="confirm()">
+                            </div>
+                            <div class="reset">
+                                <input type="reset" value="Reset">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
