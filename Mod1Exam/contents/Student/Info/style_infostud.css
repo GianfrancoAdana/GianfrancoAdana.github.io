@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
 }
+body{
+    background: #f2f2f2;
+}
 .sidebar{
     position: fixed;
     left: 0;
@@ -613,8 +616,7 @@ div.fcon{
 	transition: .5s;
 }
 div.tcon{
-    position: absolute;
-    top: 88%;
+    display: inline-block;
     background-color: #fff;
     width: 91%;
     height: auto;
