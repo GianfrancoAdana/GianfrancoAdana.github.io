@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<!-- Modified by Gianfranco M. Adana-->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Class Grades | Malayan Colleges Mindanao, Student Information System</title>
+        <link rel="stylesheet" href="style_teach.css">
+        <link rel="icon" type="image/x-icon" href="images/logoicon.png">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <a href="../../teacher.html">
+                <img src="images/logoicon.png">
+                <div class="logo_name">MCM Digital</div>
+            </a>
+            <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <i class='bx bx-search' ></i>
+                <input type="text" placeholder="Search...">
+            <span class="tooltip">Search</span>
+            </li>
+            <li>
+                <a href="../../List/list_student.html">
+                    <i class='bx bx-notepad'></i>
+                    <span class="links_name">Class List</span>
+                </a>
+                <span class="tooltip">Class List</span>
+            </li>
+            <li>
+                <a href="../list_stud.html" class="hov">
+                    <i class='bx bx-book-bookmark' ></i>
+                    <span class="links_name">Student Grades</span>
+                </a>
+                <span class="tooltip">Student Grades</span>
+            </li>
+            <div class="bc">
+                <img src="images/teach1.svg">
+            </div>
+            <li class="profile">
+                <div class="profile-details">
+                    <img src="images/avatar.png" alt="Avatar">
+                    <div class="name_job">
+                        <div class="name">Teacher</div>
+                        <div class="job">Year Level/Program</div>
+                    </div>
+                </div>
+                <a href="../../../../Main.html">
+                    <i class='bx bx-log-out' id="log_out" ></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="container">
+            <div class="contents">
+                <div class="top">
+                    <div class="top-img">
+                        <img src="images/male.svg">
+                        <img src="images/female.svg">
+                        <img class="add-more" src="images/peers.svg">
+                        <br><br>
+                        <h6 class="add-morei">Add more</h6>
+                        <div class="spacer">.</div>
+                        <i class='bx bx-bell' ></i>
+                        <a href="../teacher.html">
+                            <i class='bx bx-arrow-from-right' ></i>
+                        </a>
+                        <i class='bx bx-arrow-from-left' ></i>
+                        <a href="../../Info/info_teach.html">
+                            <i class='bx bx-info-circle' ></i>
+                        </a>
+                    </div>
+                    <br><br>
+                    <h2 class="fsub">Your Current Grades For This Semester</h2>
+                    <div class="fcon">
+                        <h3 class="about">Grade Book</h3>
+                        <br><br><br>
+                        <input class="edit" type="button" value="Add Grade" onclick="addRow()">
+                        <input class="confirm" type="button" value="Confirm" onclick="confirm()">
+                        <br><br>
+                        <div class="tdes">
+                            <div id="content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
