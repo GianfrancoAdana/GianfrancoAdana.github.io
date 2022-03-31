@@ -407,6 +407,7 @@ div.fcon{
 
 .top h2.ssub{
     display: inline-block;
+    transform: translate(-192%, 1400%);
     bottom: 38%;
     font-size: 120%;
     font-weight: 600;
@@ -414,6 +415,7 @@ div.fcon{
 
 div.scon{
     display: inline-block;
+    transform: translateY(10%);
     width: 100%;
 }
 .first-rem{
