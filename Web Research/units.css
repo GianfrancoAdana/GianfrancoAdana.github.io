@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2family=Poppins:wght@400;600;900&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    position: relative;
+    margin: 0;
+    background: linear-gradient(to left top, #38101b, #101010, #101010, #38101b);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+/*HEADER BEGINS HERE */
+
+header{
+    border-bottom: 1px solid dimgrey;
+    height: 150px;
+    position: relative;
+}
+.con-head{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50px;
+    margin: auto;
+}
+.logoimg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.logoname{
+    display: inline-block;
+    position: absolute;
+    bottom: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*MAIN CONTENTS BEGINS HERE */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.con-peak{
+    border-radius: 20px;
+    border: none;
+    height: 200px;
+    width: 400px;
+    top: 200px;
+    background: url(Images/road.jpg);
+    background-size: 400px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 12px #000;
+}
+.line-red{
+    position: absolute;
+    display: block;
+    border-left: 5px solid #fe0104;
+    height: 50px;
+    width: 300px;
+    bottom: 0;
+    margin: 20px;
+    padding: 10px;
+        
+}
+.head-peak-one{
+    position: absolute;
+    display: block;
+    bottom: 20px;
+    text-align: left;
+}
+.head-peak-two{
+    position: absolute;
+    display: block;
+    bottom: -5px;
+    text-align: left;
+
+}
+.con-info{
+    display: block;
+    width: 400px;
+    height: auto;
+    top: 170px;
+    border: 1px solid white;
+}
+.vanimg{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+}
+.con-in{
+    display: block;
+    position: relative;
+    height: auto;
+    border: 1px solid green;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/*SPACER STARTS*/
+.spacer{
+    display: block;
+    height: 40vh;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*SPACER ENDS*/
+
+.main-title{
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.2;
+    padding: 10px 0px;
+}
+.desc{
+    color: white;
+    top: 25px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+/*FOOTER BEGINS HERE */
+
+footer{ 
+    padding: 10px;
+    padding-top: 60px;
+    height: 150px;
+    filter: blur(0px);
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    margin-top: auto;
+}
+.bg-blur{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    filter: blur(10px);
+    background: rgb(50, 50, 50, .9);
+}
+.search-bar{
+    top: 10px;
+    right: 0;
+    left: 0;
+    text-align: left;
+    height: 40px;
+    width: 280px;
+    padding: 0px 20px;
+    color: rgb(129, 129, 129);
+    border-radius: 7px;
+    position: absolute;
+    border: none;
+    margin:auto;
+}
+i{
+    color: white;
+    margin: 10px 0px;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+.fa-truck-front{
+    color: white;
+    background: #fe0104;
+    border-radius: 5px;
+}
+.sub-title{
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.fa-arrow-right-long{
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    left: 00;
+    color: grey;
+    border: 1px solid;
+    width: 10px;
+    margin-left: 65%
+    
+}
